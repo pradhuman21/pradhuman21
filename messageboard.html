@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<!-- project start on date 13 August 2022 15:53PM -->
+
+<!-- html tag start here -->
+<html lang="en">
+<!-- head tag start here -->
+
+<head>
+  <!-- meta tag start -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  shrink-to-fit=no" />
+  <!-- meta tag end -->
+
+  <title>Myfans</title>
+
+  <!-- All Css link start -->
+  <!-- fontawesome-icon V-4.7.0 css link start -->
+  <link rel="stylesheet" href="./assets/fonts/icons/font-awesome-4.7.0/css/font-awesome.css" />
+  <!-- fontawesome-icon V-4.7.0 css link end -->
+
+  <!-- Boxicon V-2.1.2 css link start -->
+  <link rel="stylesheet" href="./assets/icon fonts/Boxicon-V2/boxiconsd41d.svg" />
+  <!-- Boxicon V-2.1.2 css link end -->
+
+  <!-- Font Family Roboto CDN link start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+  <!-- Font Family Roboto CDN link end -->
+
+  <!-- Bootstrap-V5.1.2 Css link start -->
+  <link rel="stylesheet" href="./assets/css/Vendror_bootstrapV5.css" />
+  <!-- Bootstrap-V5.1.2 Css link end -->
+
+  <!-- main css link start -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <!-- main css link end -->
+
+  <!-- main responsive css link start -->
+  <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <!-- main responsive css link end -->
+
+  <!-- All Css link end -->
+</head>
+<!-- head tag end here -->
+
+<!-- Body tag start here -->
+
+<body>
+
+  <!-- website loader start-->
+  <div class="fallBackLoaderParent">
+    <div class="loading-spinner position-relative">
+      <img src="./assets/img/myfans-small.png" class="position-absolute loder-img">
+    </div>
+  </div>
+  <!-- website loder end -->
+
+  <!-- Main-Container start -->
+  <div class="main-container" id="exampleImage">
+    <!-- sidebar-menu start -->
+    <div class="sidebar-menu">
+      <!-- sidebar-menu header start -->
+      <div class="side-header">
+        <!-- site logo start -->
+        <a href="index.html" class="brand-logo d-flex align-items-center">
+          <img src="./assets/img/myfans-small.png" class="small-logo mobile-logo" alt="mobile screen small logo" />
+          <img src="./assets/img/myfans-small.png" class="logo-img" alt="mobile screen small logo" />
+        </a>
+        <!-- site logo end -->
+
+        <!-- toggle button start -->
+        <div class="burger-toggle d-none d-xl-block">
+          <span class="top-line"></span>
+          <span class="middle-line"></span>
+          <span class="bottom-line"></span>
+        </div>
+        <div class="burger-toggle-responsive d-block d-xl-none">
+          <span class="top-line"></span>
+          <span class="middle-line"></span>
+          <span class="bottom-line"></span>
+        </div>
+        <!-- toggle button end -->
+      </div>
+      <!-- sidebar-menu header end -->
+
+      <!-- sidebar-menu body start -->
+      <div class="side-body">
+        <ul class="sidebody-nav h-100 metismenu" data-sidebar="init">
+          <div class="sidebar-wrapper">
+            <div class="sidebar-mask">
+              <div class="sidebar-offset" style="bottom: 0px; right: -17px">
+                <div class="sidebar-content-wrapper" style="height: 100%; overflow: hidden scroll">
+                  <div class="sidebar-content">
+                    <!--  sidebar start-->
+                    <div class="accordion" id="accordionExample">
+                      <!-- dashboard  -->
+                      <div class="accordion-item">
+                        <li class="nav-item active">
+                          <a href="index.html" class="nav-link" type="button">
+                            <span class="nav-icon"><i class="fa fa-home fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Dashboard</span>
+                          </a>
+                        </li>
+                      </div>
+                      <!-- dashboard -->
+
+                      <!-- Celebrities accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="Celebrities" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#Celebrities">
+                            <span class="nav-icon"><i class="fa fa-user-plus fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Celebrities</span>
+                          </a>
+                        </li>
+                        <div id="Celebrities" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="all-Celebrities.html" class="nav-link">
+                                  <span class="nav-title">All Celebrities</span>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="Celebrities-request.html" class="nav-link">
+                                  <span class="nav-title">Celebrities Request</span>
+                                </a>
+                              </li>
+                              <!-- catergroy -->
+                              <li class="nav-item">
+                                <a href="Catergroy.html" class="nav-link">
+                                  <span class="nav-title">Catergroy</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Celebrities accordion end -->
+
+                      <!-- user accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#user" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#user">
+                            <span class="nav-icon"><i class="fa fa-user fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">User</span>
+                          </a>
+                        </li>
+                        <div id="user" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="all-user.html" class="nav-link">
+                                  <span class="nav-title">All user</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- user accordion end -->
+
+                      <!-- order accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#order" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#order">
+                            <span class="nav-icon"><i class="fa fa-shopping-cart fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Orders</span>
+                          </a>
+                        </li>
+                        <div id="order" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="all-order.html" class="nav-link">
+                                  <span class="nav-title">All orders</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- order accordion end -->
+
+                      <!-- brand accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#brand" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#brand">
+                            <span class="nav-icon"><i class="fa fa-tags fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Brand</span>
+                          </a>
+                        </li>
+                        <div id="brand" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="all-brand.html" class="nav-link">
+                                  <span class="nav-title">All Brand</span>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="brand-request.html" class="nav-link">
+                                  <span class="nav-title">Brand Request</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- brand accordion end -->
+
+                      <!-- Event accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#event" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#event">
+                            <span class="nav-icon"><i class="fa fa-calendar fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Event</span>
+                          </a>
+                        </li>
+                        <div id="event" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="all-event.html" class="nav-link">
+                                  <span class="nav-title">All Event</span>
+                                </a>
+                              </li>
+                              <li class="nav-item">
+                                <a href="add-event.html" class="nav-link">
+                                  <span class="nav-title">Add Event</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Event accordion end -->
+
+                      <!-- Earnings accordion start  -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#earnings" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#earnings">
+                            <span class="nav-icon"><i class="fa fa-money fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Earnings</span>
+                          </a>
+                        </li>
+                        <div id="earnings" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="earnings.html" class="nav-link">
+                                  <span class="nav-title">All Earnings</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Earnings accordion end -->
+
+                      <!-- Report accordion start -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#report" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#report">
+                            <span class="nav-icon"><i class="fa fa-file fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Report</span>
+                          </a>
+                        </li>
+                        <div id="report" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="report.html" class="nav-link">
+                                  <span class="nav-title">All Reports</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- report accordion end -->
+                      <!-- payment accordion start  -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#payment" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#payment">
+                            <span class="nav-icon"><i class="fa fa-credit-card-alt fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Payment</span>
+                          </a>
+                        </li>
+                        <div id="payment" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="paid.html" class="nav-link">
+                                  <span class="nav-title">Paid</span>
+                                </a>
+                                <a href="unpaid.html" class="nav-link">
+                                  <span class="nav-title">Unpaid</span>
+                                </a>
+                                <a href="refund.html" class="nav-link">
+                                  <span class="nav-title">Refund</span>
+                                </a>
+                                <a href="refund-pending.html" class="nav-link">
+                                  <span class="nav-title">Refund Pending</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- payment accordion end -->
+
+                      <!-- Admin profit accordion start  -->
+                      <div class="accordion-item">
+                        <li class="nav-item">
+                          <a href="#Profit" class="accordion-button collapsed nav-link" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#Profit">
+                            <span class="nav-icon"><i class="fa fa-th-large fa-fw" aria-hidden="true"></i></span>
+                            <span class="nav-title">Admin</span>
+                          </a>
+                        </li>
+                        <div id="Profit" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body p-0">
+                            <ul class="list-unstyled">
+                              <li class="nav-item">
+                                <a href="admin-profit.html" class="nav-link">
+                                  <span class="nav-title">Profit</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Admin Profit accordion end -->
+                    </div>
+                    <!-- sidebar end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <!-- sidebar-menu body end -->
+    </div>
+    <!-- sidebar-menu end -->
+
+    <!-- main-content-wrapper start -->
+    <div class="page-content d-flex flex-column">
+      <!-- page-content nav start -->
+      <nav class="navbar top-navbar navbar-expand top-sticky">
+        <div class="collapse navbar-collapse" id="navbarSupporttoggle">
+          <div class="burger-toggle-responsive d-block d-xl-none">
+            <span class="top-line"></span>
+            <span class="middle-line"></span>
+            <span class="bottom-line"></span>
+          </div>
+          <!-- header-search start -->
+          <form class="nav-search-form d-none me-auto d-md-block ms-2 ms-xl-0">
+            <label for="searchbar"><i class="fa fa-search" aria-hidden="true"></i></label>
+            <input type="text" class="form-control" id="searchbar" placeholder="Search here..." />
+          </form>
+          <!-- header-search end -->
+          <!-- right-side navbar start -->
+          <ul class="navbar-nav right-nav align-items-center ms-auto ms-md-0">
+            <li class="nav-item">
+              <a class="nav-link bx-fullscreen-btn" id="btnFullscreen">
+                <!-- <i class="fa fa-arrows-alt" aria-hidden="true"></i> -->
+                <i>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="16" height="16">
+                    <path
+                      d="M128 32H32C14.31 32 0 46.31 0 64v96c0 17.69 14.31 32 32 32s32-14.31 32-32V96h64c17.69 0 32-14.31 32-32S145.7 32 128 32zM416 32h-96c-17.69 0-32 14.31-32 32s14.31 32 32 32h64v64c0 17.69 14.31 32 32 32s32-14.31 32-32V64C448 46.31 433.7 32 416 32zM128 416H64v-64c0-17.69-14.31-32-32-32s-32 14.31-32 32v96c0 17.69 14.31 32 32 32h96c17.69 0 32-14.31 32-32S145.7 416 128 416zM416 320c-17.69 0-32 14.31-32 32v64h-64c-17.69 0-32 14.31-32 32s14.31 32 32 32h96c17.69 0 32-14.31 32-32v-96C448 334.3 433.7 320 416 320z" />
+                  </svg>
+                </i>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown language-switch-nav-item">
+              <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="assets/img/us-flag.jpg" alt="image" />
+                <span class="d-none d-md-inline-block">English
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center">
+                  <span>German</span>
+
+                  <img src="assets/img/germany-flag.jpg" alt="flag" />
+                </a>
+
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center">
+                  <span>French</span>
+
+                  <img src="assets/img/france-flag.jpg" alt="flag" />
+                </a>
+
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center">
+                  <span>Spanish</span>
+
+                  <img src="assets/img/spain-flag.jpg" alt="flag" />
+                </a>
+
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center">
+                  <span>Russian</span>
+
+                  <img src="assets/img/russia-flag.jpg" alt="flag" />
+                </a>
+
+                <a href="#" class="dropdown-item d-flex justify-content-between align-items-center">
+                  <span>Italian</span>
+
+                  <img src="assets/img/italy-flag.jpg" alt="flag" />
+                </a>
+              </div>
+            </li>
+
+            <li class="nav-item message-box dropdown">
+              <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <div class="message-btn">
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+
+                  <span class="badge bg-primary">4</span>
+                </div>
+              </button>
+
+              <div class="dropdown-menu">
+                <div class="dropdown-header d-flex justify-content-between align-items-center">
+                  <span class="title d-inline-block">4 New Message</span>
+                  <span class="clear-all-btn d-inline-block">Clear All</span>
+                </div>
+
+                <div class="dropdown-body">
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="figure">
+                      <img src="assets/img/user1.jpg" class="rounded-circle" alt="image" />
+                    </div>
+
+                    <div class="content d-flex justify-content-between align-items-center">
+                      <div class="text">
+                        <span class="d-block">Sarah Taylor</span>
+                        <p class="sub-text mb-0">UX/UI design</p>
+                      </div>
+                      <p class="time-text mb-0">2 sec ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="figure">
+                      <img src="assets/img/user2.jpg" class="rounded-circle" alt="image" />
+                    </div>
+
+                    <div class="content d-flex justify-content-between align-items-center">
+                      <div class="text">
+                        <span class="d-block">Lucy Eva</span>
+                        <p class="sub-text mb-0">Web developers</p>
+                      </div>
+                      <p class="time-text mb-0">5 sec ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="figure">
+                      <img src="assets/img/user3.jpg" class="rounded-circle" alt="image" />
+                    </div>
+
+                    <div class="content d-flex justify-content-between align-items-center">
+                      <div class="text">
+                        <span class="d-block">James Anderson</span>
+                        <p class="sub-text mb-0">Content whitter</p>
+                      </div>
+                      <p class="time-text mb-0">3 min ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="figure">
+                      <img src="assets/img/user4.jpg" class="rounded-circle" alt="image" />
+                    </div>
+
+                    <div class="content d-flex justify-content-between align-items-center">
+                      <div class="text">
+                        <span class="d-block">Steven Smith</span>
+                        <p class="sub-text mb-0">Digital marketing</p>
+                      </div>
+                      <p class="time-text mb-0">7 min ago</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="dropdown-footer">
+                  <a href="messageboard.html" class="dropdown-item">View All</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item notification-box dropdown">
+              <button class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <div class="notification-btn">
+                  <i class="fa fa-bell-o" aria-hidden="true"></i>
+                  <span class="badge bg-secondary">5</span>
+                </div>
+              </button>
+
+              <div class="dropdown-menu">
+                <div class="dropdown-header d-flex justify-content-between align-items-center">
+                  <span class="title d-inline-block">6 New Notifications</span>
+                  <span class="mark-all-btn d-inline-block">Mark all as read</span>
+                </div>
+
+                <div class="dropdown-body">
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="icon">
+                      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="content">
+                      <span class="d-block">Just sent a new message!</span>
+                      <p class="sub-text mb-0">2 sec ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="icon">
+                      <i class="fa fa-user-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="content">
+                      <span class="d-block">New customer registered</span>
+                      <p class="sub-text mb-0">5 sec ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="icon">
+                      <i class="fa fa-indent" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="content">
+                      <span class="d-block">Apps are ready for update</span>
+                      <p class="sub-text mb-0">3 min ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="icon">
+                      <i class="fa fa-hourglass-half" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="content">
+                      <span class="d-block">Your item is shipped</span>
+                      <p class="sub-text mb-0">7 min ago</p>
+                    </div>
+                  </a>
+
+                  <a href="#" class="dropdown-item d-flex align-items-center">
+                    <div class="icon">
+                      <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="content">
+                      <span class="d-block">Steven commented on your post</span>
+                      <p class="sub-text mb-0">1 sec ago</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="dropdown-footer">
+                  <a href="notification.html" class="dropdown-item">View All</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown profile-nav-item">
+              <button href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <div class="menu-profile">
+                  <span class="name d-none d-md-inline-block">Hi! Andro</span>
+                  <img src="assets/img/user1.jpg" class="rounded-circle" alt="image" />
+                </div>
+              </button>
+
+              <div class="dropdown-menu">
+                <div class="dropdown-header d-flex flex-column align-items-center">
+                  <div class="figure mb-3">
+                    <img src="assets/img/user1.jpg" class="rounded-circle" alt="image" />
+                  </div>
+
+                  <div class="info text-center">
+                    <span class="name">Andro Smith</span>
+                    <p class="mb-3 email">hello@androsmith.com</p>
+                  </div>
+                </div>
+
+                <div class="dropdown-body">
+                  <ul class="profile-nav p-0 pt-3">
+                    <li class="nav-item">
+                      <a href="messageboard.html" class="nav-link">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span>My Inbox</span>
+                      </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a href="edit-profile.html" class="nav-link">
+                        <i class="fa fa-pencil" aria-hidden="true"></i>
+                        <span>Edit Profile</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="dropdown-footer">
+                  <ul class="profile-nav">
+                    <li class="nav-item">
+                      <a href="login.html" class="nav-link">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        <span>Logout</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <!-- right-side navbar end -->
+        </div>
+      </nav>
+      <!-- page-content nav end -->
+
+      <!-- Breardcrumb area start -->
+      <div class="breadcrumb-area">
+        <h1>MessageBorad</h1>
+        <ol class="breadcrumb">
+          <li class="item">
+            <a href="messageboard.html"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </li>
+          <li class="item">MessageBoard</li>
+        </ol>
+      </div>
+      <!-- Breadcrumb area end -->
+
+      <!-- page-content main section start -->
+      <div class="chat-content-area row">
+        <div class="col-12 col-md-5 col-lg-4 sidebar-left mb-3 mb-md-0">
+          <div class="sidebar">
+            <div class="chat-sidebar-header d-flex align-items-center justify-content-between justify-content-md-start">
+              <div class="avatar me-3">
+                <img width="50" height="50" class="rounded-circle" alt="image" src="./assets/img/user1.jpg" />
+              </div>
+
+              <form class="form-group position-relative mb-0">
+                <label><i class="fa fa-search" aria-hidden="true"></i></label>
+                <input type="text" class="form-control" placeholder="Search here..." />
+              </form>
+            </div>
+            <div class="sidebar-content d-flex chat-sidebar" data-simplebar="init">
+              <div class="simplebar-wrapper" style="margin: 0px">
+                <div class="simplebar-height-auto-observer-wrapper">
+                  <div class="simplebar-height-auto-observer"></div>
+                </div>
+                <div class="simplebar-mask">
+                  <div class="simplebar-offset" style="right: -17px; bottom: 0px">
+                    <div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll">
+                      <div class="simplebar-content" style="padding: 0px">
+                        <div class="chat-menu">
+                          <label for="" class="d-block list-group-label mt-0">Chats</label>
+                          <ul class="list-group list-group-user list-unstyled mb-0">
+                            <li>
+                              <div class="d-flex align-items-center">
+                                <div class="avatar me-3">
+                                  <img src="assets/img/user2.jpg" width="50" height="50" class="rounded-circle"
+                                    alt="image" />
+                                  <span class="status-busy"></span>
+                                </div>
+                                <div class="user-name">
+                                  <h6 class="fw-bold">Ellen Cranford</h6>
+                                  <span class="d-block">Welcome to React World</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center">
+                                <div class="avatar me-3">
+                                  <img src="assets/img/user3.jpg" width="50" height="50" class="rounded-circle"
+                                    alt="image" />
+
+                                  <span class="status-online"></span>
+                                </div>
+
+                                <div class="user-name">
+                                  <h6 class="fw-bold">Sherell Steckler</h6>
+                                  <span class="d-block">React World</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center">
+                                <div class="avatar me-3">
+                                  <img src="assets/img/user4.jpg" width="50" height="50" class="rounded-circle"
+                                    alt="image" />
+
+                                  <span class="status-away"></span>
+                                </div>
+
+                                <div class="user-name">
+                                  <h6 class="fw-bold">Mitsue Dove</h6>
+                                  <span class="d-block">New Order</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center">
+                                <div class="avatar me-3">
+                                  <img src="assets/img/user5.jpg" width="50" height="50" class="rounded-circle"
+                                    alt="image" />
+
+                                  <span class="status-offline"></span>
+                                </div>
+
+                                <div class="user-name">
+                                  <h6 class="fw-bold">Sasha Abele</h6>
+                                  <span class="d-block">Lorem Ipsum</span>
+                                </div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center">
+                                <div class="avatar me-3">
+                                  <img src="assets/img/user6.jpg" width="50" height="50" class="rounded-circle"
+                                    alt="image" />
+                                  <span class="status-online"></span>
+                                </div>
+
+                                <div class="user-name">
+                                  <h6 class="fw-bold">Angeles Valls</h6>
+                                  <span class="d-block">Lorem come</span>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-7 col-lg-8 content-right">
+          <div class="chat-area">
+            <div class="chat-list-wrapper">
+              <div class="chat-list">
+                <div class="chat-list-header d-flex align-items-center">
+                  <div class="header-left d-flex align-items-center me-3">
+                    <div class="avatar me-3">
+                      <img src="assets/img/user2.jpg" width="30" height="30" class="rounded-circle" alt="image" />
+                      <span class="status-online"></span>
+                    </div>
+                    <h6 class="mb-0 fw-bold">Ellen Cranford</h6>
+                  </div>
+                  <div class="header-right text-end w-100">
+                    <ul class="list-unstyled mb-0">
+                      <li class="me-2">
+                        <span class="favorite d-block">
+                          <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </span>
+                      </li>
+
+                      <li>
+                        <div class="dropdown">
+                          <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="true">
+                            <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                          </button>
+
+                          <div class="dropdown-menu" data-popper-placement="bottom-end" style="
+                                position: absolute;
+                                inset: 0px 0px auto auto;
+                                margin: 0px;
+                                transform: translate(0px, 24px);
+                              ">
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                              <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                              Pin to Top
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                              <i class="fa fa-trash" aria-hidden="true"></i>
+                              Delete Chat
+                            </a>
+                            <a class="dropdown-item d-flex align-items-center" href="#">
+                              <i class="fa fa-ban" aria-hidden="true"></i>
+                              Block
+                            </a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="chat-container" data-simplebar="init">
+                  <div class="simplebar-wrapper" style="margin: -25px -20px">
+                    <div class="simplebar-height-auto-observer-wrapper">
+                      <div class="simplebar-height-auto-observer"></div>
+                    </div>
+                    <div class="simplebar-mask">
+                      <div class="simplebar-offset" style="bottom: 0px">
+                        <div class="simplebar-content-wrapper" style="height: 100%; overflow: hidden scroll">
+                          <div class="simplebar-content" style="padding: 25px 20px">
+                            <div class="chat-content">
+                              <div class="chat">
+                                <div class="chat-avatar">
+                                  <a href="#" class="d-inline-block">
+                                    <img src="assets/img/user1.jpg" width="50" height="50" class="rounded-circle"
+                                      alt="image" />
+                                  </a>
+                                </div>
+
+                                <div class="chat-body">
+                                  <div class="chat-message">
+                                    <p>
+                                      👋Hi​! I'm a Figmaa. Let me know if you
+                                      have any questions regarding our tool or
+                                      set up a demo to learn more!
+                                    </p>
+                                    <span class="time d-block">7:45 AM</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="chat chat-left">
+                                <div class="chat-avatar">
+                                  <a href="#" class="d-inline-block">
+                                    <img src="assets/img/user2.jpg" width="50" height="50" class="rounded-circle"
+                                      alt="image" />
+                                  </a>
+                                </div>
+
+                                <div class="chat-body">
+                                  <div class="chat-message">
+                                    <p>Could you describe something new?</p>
+                                    <span class="time d-block">7:45 AM</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="chat">
+                                <div class="chat-avatar">
+                                  <a href="#" class="d-inline-block">
+                                    <img src="assets/img/user1.jpg" width="50" height="50" class="rounded-circle"
+                                      alt="image" />
+                                  </a>
+                                </div>
+
+                                <div class="chat-body">
+                                  <div class="chat-message">
+                                    <p>
+                                      👋Hi​! I'm a Figma. Let me know if you
+                                      have any questions regarding our tool or
+                                      set up a demo to learn more!
+                                    </p>
+                                    <span class="time d-block">7:45 AM</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="chat chat-left">
+                                <div class="chat-avatar">
+                                  <a href="#" class="d-inline-block">
+                                    <img src="assets/img/user2.jpg" width="50" height="50" class="rounded-circle"
+                                      alt="image" />
+                                  </a>
+                                </div>
+
+                                <div class="chat-body">
+                                  <div class="chat-message">
+                                    <p>Could you describe something new?</p>
+                                    <span class="time d-block">7:45 AM</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="chat-list-footer">
+                  <form action="" class="d-flex align-items-center">
+                    <div class="btn-box d-flex align-items-center me-3">
+                      <button class="emoji-btn d-inline-block me-2" data-bs-toggle="tooltip" data-placement="top"
+                        type="button" aria-label="Emoji">
+                        <i class="fa fa-smile-o" aria-hidden="true"></i>
+                      </button>
+
+                      <button class="file-attachment-btn d-inline-block" data-bs-toggle="tooltip" data-placement="top"
+                        type="button" aria-label="File Attachment">
+                        <i class="fa fa-paperclip" aria-hidden="true"></i>
+                      </button>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Text your Message..." name="" id="" />
+                    <button type="submit" class="send-btn d-inline-block">
+                      <span class="d-none d-md-inline-block">Send</span>
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- page-content main section end -->
+    </div>
+    <!-- main-content-wrapper end -->
+  </div>
+  <!-- Main-Container end -->
+
+  <!-- All JS script start -->
+  <script src="./assets/js/jquery.js"></script>
+
+  <!-- main js script start -->
+  <script src="./assets/js/main.js"></script>
+  <!-- main js script end -->
+
+  <!-- Bootstrap-V5.1.2 Js script start -->
+  <script src="./assets/js/vendror_bootstrapV5.bundle.js"></script>
+  <!-- Bootstrap-V5.1.2 Js script end -->
+
+  <!-- google chart CDN script start -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- google chart CDN script end -->
+
+  <!-- google chart js script start -->
+  <script src="./assets/js/chart.js"></script>
+  <!-- google chart js script end -->
+
+    <!-- loader js start  -->
+    <script>
+      $(window).load(function () {
+        $(".fallBackLoaderParent").delay(2000).fadeOut("slow");
+      })
+    </script>
+    <!-- loader js end  -->
+    
+  <!-- All JS script end -->
+</body>
+<!-- Body tag end here -->
+
+</html>
+<!-- html tag end here -->
